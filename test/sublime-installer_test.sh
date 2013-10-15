@@ -15,4 +15,5 @@ if test "$EXPECTED_PROMPT" != "$ACTUAL_PROMPT"; then
   echo "Sublime Text $SUBLIME_TEXT_VERSION prompt did not match as expected" 1>&2
   echo "  Actual: $ACTUAL_PROMPT" 1>&2
   echo "  Expected: $EXPECTED_PROMPT" 1>&2
+  exit 1
 fi
