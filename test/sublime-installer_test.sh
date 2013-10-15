@@ -4,9 +4,7 @@
 if test "$SUBLIME_TEXT_VERSION" = "2"; then
   EXPECTED_PROMPT="Sublime Text 2 Build 2221"
 elif test "$SUBLIME_TEXT_VERSION" = "3"; then
-  # EXPECTED_PROMPT="Sublime Text Build 3047"
-  # Fail on purpose
-  EXPECTED_PROMPT="Sublime Text Build 3040"
+  EXPECTED_PROMPT="Sublime Text Build 3047"
 fi
 
 # Assert the prompt is as expected
