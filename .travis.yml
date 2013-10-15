@@ -1,0 +1,11 @@
+language: bash
+env:
+  - SUBLIME_TEXT_VERSION=2
+  - SUBLIME_TEXT_VERSION=3
+install:
+  - ./install.sh $SUBLIME_TEXT_VERSION
+script:
+  - ./test/sublime-installer_test.sh
+
+notifications:
+  email: false
