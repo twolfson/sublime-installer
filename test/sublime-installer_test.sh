@@ -1,11 +1,4 @@
-var sublime_installer = require('../lib/sublime-installer.js');
+#!/bin/sh
 
-describe('sublime-installer', function () {
-  before(function () {
-
-  });
-
-  it('', function () {
-
-  });
-});
+# Verify the prompt information based on the version
+EXPECTED_PROMPT=""

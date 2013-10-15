@@ -15,13 +15,13 @@ if test -z "$1"; then
 fi
 
 # If we are to install Sublime Text 2
-if test "$1" = "2"; then
+if test "$SUBLIME_TEXT_VERSION" = "2"; then
   # http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2
   sudo add-apt-repository ppa:webupd8team/sublime-text-2 -y
   sudo apt-get update
   sudo apt-get install sublime-text -y
   sudo ln -s /usr/bin/subl /usr/bin/sublime_text
-elif test "$1" = "3"; then
+elif test "$SUBLIME_TEXT_VERSION" = "3"; then
   sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
   sudo apt-get update
   sudo apt-get install sublime-text-installer -y
