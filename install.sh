@@ -20,12 +20,10 @@ if test "$SUBLIME_TEXT_VERSION" = "2"; then
   sudo add-apt-repository ppa:webupd8team/sublime-text-2 -y
   sudo apt-get update
   sudo apt-get install sublime-text -y
-  sudo ln -s /usr/bin/subl /usr/bin/sublime_text
 elif test "$SUBLIME_TEXT_VERSION" = "3"; then
   sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
   sudo apt-get update
   sudo apt-get install sublime-text-installer -y
-  sudo ln -s /usr/bin/subl /usr/bin/sublime_text
 
   # If we are in Travis, update shm. Fixes 'Unable to init shm' from `sublime_text --wait`
   # https://travis-ci.org/twolfson/sublime-plugin-tests/builds/12500309
