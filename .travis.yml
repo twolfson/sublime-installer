@@ -1,3 +1,5 @@
+sudo: required
+dist: trusty
 language: bash
 env:
   - SUBLIME_TEXT_VERSION=2
