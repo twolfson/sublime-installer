@@ -39,6 +39,8 @@ https://raw.github.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s VERS
 `sublime-installer` can be integrated with `.travis.yml` in the following manner:
 
 ```yml
+sudo: required
+dist: trusty
 env:
   - SUBLIME_TEXT_VERSION="2"
   - SUBLIME_TEXT_VERSION="3"
