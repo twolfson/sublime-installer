@@ -43,7 +43,7 @@ env:
   - SUBLIME_TEXT_VERSION="2"
   - SUBLIME_TEXT_VERSION="3"
 install:
-  - https://raw.github.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s $SUBLIME_TEXT_VERSION
+  - https://raw.github.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s "$SUBLIME_TEXT_VERSION"
 ```
 
 ## Contributing

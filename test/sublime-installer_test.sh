@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# Exit on first error
+set -e
 
 # Update the prompt information based on the version
 if test "$SUBLIME_TEXT_VERSION" = "2"; then

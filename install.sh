@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# Exit on first error
+set -e
 
 # Assert the version was specified
 SUBLIME_TEXT_VERSION="$1"
@@ -10,7 +12,7 @@ if test -z "$1"; then
   echo "https://github.com/twolfson/sublime-installer"
   echo ""
   echo "Usage: ./install.sh <sublime_text_version>"
-  echo "         sublime_text_version - Either 2 or 3"
+  echo "    sublime_text_version - Either 2 or 3"
   exit 1
 fi
 
