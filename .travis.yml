@@ -6,7 +6,7 @@ env:
   - SUBLIME_TEXT_VERSION=3
 
 install:
-  - ./install.sh $SUBLIME_TEXT_VERSION
+  - ./install.sh "$SUBLIME_TEXT_VERSION"
   - subl --version
 script:
   - ./test/sublime-installer_test.sh
