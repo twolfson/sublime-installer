@@ -6,7 +6,7 @@ set -e
 if test "$SUBLIME_TEXT_VERSION" = "2"; then
   EXPECTED_PROMPT="Sublime Text 2 Build 2221"
 elif test "$SUBLIME_TEXT_VERSION" = "3"; then
-  EXPECTED_PROMPT="Sublime Text Build 3047"
+  EXPECTED_PROMPT="Sublime Text Build 3083"
 fi
 
 # Assert the prompt is as expected
