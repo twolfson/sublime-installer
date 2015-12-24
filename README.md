@@ -22,15 +22,15 @@ Sublime Text Build 3047
 `sublime-installer` takes one parameter which is the Sublime Text version. This can be `2` or `3`.
 
 ```sh
-https://raw.github.com/twolfson/sublime-installer/master/install.sh | sh -s VERSION
+https://rawgit.com/twolfson/sublime-installer/master/install.sh | sh -s VERSION
 ```
 
 ### semver
 To prevent changes from breaking your scripts, it is suggested you use a [semver][] script over `master`.
 
 ```sh
-https://raw.github.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s VERSION
-# e.g. https://raw.github.com/twolfson/sublime-installer/0.1.0/install.sh | sh -s 2
+https://rawgit.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s VERSION
+# e.g. https://rawgit.com/twolfson/sublime-installer/0.1.0/install.sh | sh -s 2
 ```
 
 [semver]: http://semver.org/
@@ -45,7 +45,7 @@ env:
   - SUBLIME_TEXT_VERSION="2"
   - SUBLIME_TEXT_VERSION="3"
 install:
-  - https://raw.github.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s "$SUBLIME_TEXT_VERSION"
+  - https://rawgit.com/twolfson/sublime-installer/SEMVER/install.sh | sh -s "$SUBLIME_TEXT_VERSION"
 ```
 
 ## Contributing
