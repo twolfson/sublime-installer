@@ -1,4 +1,6 @@
 # sublime-installer changelog
+0.2.1 - Moved to rawgit.com to prevent future redirection issues
+
 0.2.0 - Repaired novice mistakes and upgraded scripts to 2015-12-24 expectations
 
 0.1.4 - Added foundry for release
